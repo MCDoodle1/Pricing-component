@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/MCDoodle1/Pricing-component)
-- Live Site URL: [Pricing-component]([https://your-live-site-url.com](https://mcdoodle1.github.io/Pricing-component/))
+- Live Site URL: [Pricing-component](https://mcdoodle1.github.io/Pricing-component/)
 
 ## My process
 
