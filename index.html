@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Pricing Component with Toggle</title>
+</head>
+<body>
+  <main class="container"> 
+    <div class="container__priceheader">
+      <h1 class="container__header">Our Pricing</h1> 
+      <div class="container__togglebutton">
+        <div class="container__labeltext">Annually</div>
+        <div class="container__switch">
+          <input type="checkbox" id="css-toggle" class="input" value="NO" onclick="Toggle();">
+          <label for="css-toggle" class="label"></label>
+        </div>
+        <div class="container__labeltext">Monthly</div>
+      </div>
+    </div>   
+    <div class="container__priceholder">
+      <div class="container__pricecard">
+        <h2 class="container__level">Basic</h2>
+        <div class="container__month">19.99</div>
+        <div class="container__year">199.99</div>
+        <ul class="container__list">
+          <il class="container__listitem">500 GB Storage</il>
+          <il class="container__listitem">2 Users Allowed</il>
+          <il class="container__listitem">Send up to 3 GB</il>
+        </ul>
+        <button class="container__button">Learn More</button>
+      </div>
+      <div class="container__pricecard container__pricecard--reverse">
+        <h2 class="container__level container__level--reverse">Professional</h2>
+        <div class="container__month container__month--reverse ">24.99</div>
+        <div class="container__year container__year--reverse">249.99</div>
+        <ul class="container__list container__list--reverse">
+          <il class="container__listitem container__listitem--reverse">1 TB Storage</il>
+          <il class="container__listitem container__listitem--reverse">5 Users Allowed</il>
+          <il class="container__listitem container__listitem--reverse">Send up to 10 GB</il>
+        </ul>
+        <button class="container__button container__button--reverse">Learn More</button>
+      </div>
+      <div class="container__pricecard">
+        <h2 class="container__level">Master</h2>
+        <div class="container__month">39.99</div>
+        <div class="container__year">399.99</div>
+        <ul class="container__list">
+          <il class="container__listitem">2 TB Storage</il>
+          <il class="container__listitem">10 Users Allowed</il>
+          <il class="container__listitem">Send up to 20 GB</il>
+        </ul>
+        <button class="container__button">Learn More</button>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
